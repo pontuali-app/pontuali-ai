@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "br.com.pontuali/pontuali",
+  "title": "Pontuali",
+  "description": "Consulte contatos, apólices, renovações, aniversários, automações e negócios da sua corretora no Pontuali. Somente leitura, dados pessoais mascarados.",
+  "version": "1.0.0",
+  "websiteUrl": "https://pontuali.com.br/ia",
+  "repository": { "url": "https://github.com/pontuali-app/pontuali-ai", "source": "github" },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.pontuali.com.br/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <token de acesso>. Crie em app.pontuali.com.br > Configurações > Acesso por IA (começa com pat_).",
+          "isRequired": true,
+          "isSecret": true,
+          "value": "Bearer {pontuali_token}",
+          "variables": {
+            "pontuali_token": { "description": "Token de acesso do Pontuali (pat_...)", "isRequired": true, "isSecret": true }
+          }
+        }
+      ]
+    }
+  ]
+}

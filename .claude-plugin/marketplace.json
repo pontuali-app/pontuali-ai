@@ -1,0 +1,7 @@
+{
+  "name": "pontuali",
+  "owner": { "name": "Pontuali" },
+  "plugins": [
+    { "name": "pontuali", "source": "./" }
+  ]
+}

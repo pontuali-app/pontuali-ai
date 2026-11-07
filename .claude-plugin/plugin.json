@@ -1,0 +1,30 @@
+{
+  "name": "pontuali",
+  "version": "1.0.0",
+  "description": "Conecte o seu assistente de IA ao Pontuali: consulte contatos, apólices, renovações, aniversários, automações e negócios com segurança (somente leitura, dados pessoais mascarados).",
+  "author": {
+    "name": "Pontuali",
+    "url": "https://pontuali.com.br"
+  },
+  "homepage": "https://pontuali.com.br/ia",
+  "repository": "https://github.com/pontuali-app/pontuali-ai",
+  "license": "MIT",
+  "keywords": [
+    "pontuali",
+    "crm",
+    "whatsapp",
+    "seguros",
+    "corretora",
+    "mcp"
+  ],
+  "userConfig": {
+    "pontuali_token": {
+      "type": "string",
+      "title": "Token de acesso do Pontuali",
+      "description": "Crie em app.pontuali.com.br > Configurações > Acesso por IA. Começa com pat_. Fica guardado no cofre seguro do seu computador.",
+      "sensitive": true,
+      "required": true
+    }
+  },
+  "privacyPolicyUrl": "https://pontuali.com.br/privacidade"
+}

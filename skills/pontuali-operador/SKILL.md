@@ -1,6 +1,6 @@
 ---
 name: pontuali-operador
-description: Regras gerais para usar o Pontuali com segurança e bom senso. Use sempre que o usuário pedir algo sobre clientes, apólices, renovações, aniversários, automações, negócios ou conversas da corretora no Pontuali.
+description: 'Regras gerais para usar o Pontuali com segurança e bom senso. Use sempre que o usuário pedir algo sobre clientes, apólices, renovações, aniversários, automações, negócios ou conversas da corretora no Pontuali.'
 ---
 
 # Como operar o Pontuali

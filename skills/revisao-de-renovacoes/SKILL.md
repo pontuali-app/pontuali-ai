@@ -1,6 +1,6 @@
 ---
 name: revisao-de-renovacoes
-description: Revisa as apólices que vencem em breve e monta um plano de contato por semana, respeitando quem pediu para não receber mensagens. Use quando o usuário perguntar sobre renovações, vencimentos ou "quem preciso procurar este mês".
+description: 'Revisa as apólices que vencem em breve e monta um plano de contato por semana, respeitando quem pediu para não receber mensagens. Use quando o usuário perguntar sobre renovações, vencimentos ou "quem preciso procurar este mês".'
 ---
 
 # Revisão de renovações

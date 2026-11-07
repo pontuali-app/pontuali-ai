@@ -1,7 +1,13 @@
 {
   "name": "pontuali",
-  "owner": { "name": "Pontuali" },
+  "owner": {
+    "name": "Pontuali"
+  },
   "plugins": [
-    { "name": "pontuali", "source": "./" }
-  ]
+    {
+      "name": "pontuali",
+      "source": "./"
+    }
+  ],
+  "description": "Plugin do Pontuali: conecte o seu assistente de IA aos dados da sua corretora, com acesso somente leitura e dados pessoais mascarados."
 }

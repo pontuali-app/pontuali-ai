@@ -1,6 +1,6 @@
 ---
 name: prontidao-das-automacoes
-description: Verifica se as automações do Pontuali estão prontas para funcionar de verdade (ligadas, com janela de envio coerente, com público e dados completos). Use quando o usuário quiser ligar, revisar ou entender as automações.
+description: 'Verifica se as automações do Pontuali estão prontas para funcionar de verdade (ligadas, com janela de envio coerente, com público e dados completos). Use quando o usuário quiser ligar, revisar ou entender as automações.'
 ---
 
 # Prontidão das automações

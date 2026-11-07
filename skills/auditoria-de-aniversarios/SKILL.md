@@ -1,6 +1,6 @@
 ---
 name: auditoria-de-aniversarios
-description: Audita a automação de aniversário: quem ela alcança e por que alguns contatos ficam de fora (sem data de nascimento, opt-out, pausa). Use quando o usuário perguntar sobre aniversariantes ou sobre por que alguém não recebeu a mensagem de aniversário.
+description: 'Audita a automação de aniversário: quem ela alcança e por que alguns contatos ficam de fora (sem data de nascimento, opt-out, pausa). Use quando o usuário perguntar sobre aniversariantes ou sobre por que alguém não recebeu a mensagem de aniversário.'
 ---
 
 # Auditoria da automação de aniversário

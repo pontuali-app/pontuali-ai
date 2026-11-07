@@ -29,11 +29,26 @@ jobs:
           print("manifests OK")
           PY
 
-      - name: Every skill has a name and a description
+      - name: Every skill has frontmatter that really parses as YAML
         run: |
-          for f in skills/*/SKILL.md; do
-            head -5 "$f" | grep -q '^name: ' && head -5 "$f" | grep -q '^description: ' || { echo "bad frontmatter: $f"; exit 1; }
-          done
+          # A description with ": " in an unquoted value breaks the YAML and the skill then loads with no metadata at all.
+          python3 -m pip install --quiet pyyaml
+          python3 - <<'PY'
+          import glob, sys, yaml
+          failed = False
+          for path in sorted(glob.glob("skills/*/SKILL.md")):
+              text = open(path, encoding="utf-8").read().replace("\r\n", "\n")
+              parts = text.split("---\n")
+              try:
+                  meta = yaml.safe_load(parts[1])
+                  assert isinstance(meta, dict) and meta.get("name") and meta.get("description"), "name and description are required"
+                  folder = path.split("/")[1]
+                  assert meta["name"] == folder, f"name '{meta['name']}' must match the folder '{folder}'"
+              except Exception as error:
+                  print(f"{path}: {error}")
+                  failed = True
+          sys.exit(1 if failed else 0)
+          PY
 
       - name: No access token is committed
         run: |

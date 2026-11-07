@@ -1,6 +1,6 @@
 ---
 name: resumo-semanal
-description: Monta o resumo da semana da corretora para a reunião de equipe: conversas esperando uma pessoa, negócios por etapa, renovações e aniversários. Use quando pedirem "resumo da semana", "como estamos" ou um relatório rápido.
+description: 'Monta o resumo da semana da corretora para a reunião de equipe: conversas esperando uma pessoa, negócios por etapa, renovações e aniversários. Use quando pedirem "resumo da semana", "como estamos" ou um relatório rápido.'
 ---
 
 # Resumo semanal

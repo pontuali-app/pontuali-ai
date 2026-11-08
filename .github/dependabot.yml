@@ -1,0 +1,10 @@
+version: 2
+updates:
+  # Keeps the pinned commit SHAs of the workflows current (a PR per update, reviewed like any other).
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: chore
+    labels: [dependencies]

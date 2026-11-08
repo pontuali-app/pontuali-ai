@@ -1,0 +1,29 @@
+# GitHub Pages (Jekyll). The site is built from the Markdown already in this repository: no copy of any page.
+title: Pontuali para o seu assistente de IA
+description: Conecte o seu assistente de IA ao Pontuali. Somente leitura, dados pessoais mascarados.
+lang: pt-BR
+url: https://ia.pontuali.com.br
+baseurl: ""
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-optional-front-matter   # README.md and docs/README.md have no front matter
+  - jekyll-readme-index            # README.md becomes the index of its folder
+  - jekyll-relative-links          # [text](docs/README.md) keeps working on the site
+  - jekyll-titles-from-headings
+
+readme_index:
+  enabled: true
+  remove_originals: true
+
+relative_links:
+  enabled: true
+  collections: false
+
+# Not part of the public site: the plugin itself (skills, manifests) and CI files.
+exclude:
+  - skills
+  - server.json
+  - CHANGELOG.md
+  - Gemfile
+  - Gemfile.lock

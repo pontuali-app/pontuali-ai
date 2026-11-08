@@ -33,7 +33,7 @@ A IA **não envia mensagens, não altera cadastros e não muda automações**. E
 4. O Claude Code vai pedir o token. Cole-o: ele fica no cofre seguro do seu computador, nunca em arquivo.
 5. Abra o Claude Code e pergunte: *"Use o Pontuali para me dar uma visão geral da minha corretora."*
 
-Outros clientes: veja [`docs/`](docs/) (Claude Desktop, Cursor e n8n).
+Outros clientes (Claude Desktop, Cursor e n8n): veja os [guias de conexão](docs/), também publicados em https://ia.pontuali.com.br.
 
 ## O que vem no pacote
 

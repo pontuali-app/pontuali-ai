@@ -4,7 +4,7 @@
   "title": "Pontuali",
   "description": "Consulte contatos, apólices, renovações, aniversários, automações e negócios da sua corretora no Pontuali. Somente leitura, dados pessoais mascarados.",
   "version": "1.0.0",
-  "websiteUrl": "https://pontuali.com.br/ia",
+  "websiteUrl": "https://ia.pontuali.com.br",
   "repository": { "url": "https://github.com/pontuali-app/pontuali-ai", "source": "github" },
   "remotes": [
     {
